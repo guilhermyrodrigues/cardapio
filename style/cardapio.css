@@ -1,0 +1,302 @@
+
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(107.56deg, #1D1717 0%, #7D7676 0.01%, #565453 12.17%, #474544 20.67%, #171513 45.17%, #0A0706 74.6%, #302422 99.97%, #373130 99.98%, #5A5555 99.99%, #120F0F 100%);
+}
+
+header {
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1  {
+    color: #FFFFFF;
+    margin: 0;
+}
+
+input[type="text"] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    max-width: 300px;
+}
+
+.navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.navigation ul li h2 {
+    display: inline;
+    margin-right: 10px;
+}
+.categoriah2{
+    background-color: #007bff;
+}
+.navigation ul li a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.menu-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.menu-item {
+    width: 30%;
+    margin-bottom: 20px;
+}
+
+.menu-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.menu-item h2 {
+    margin-top: 10px;
+    color: #FFFFFF;
+}
+
+.menu-item p {
+    color: #FFFFFF;
+}
+
+#preco {
+    color: #99610C; 
+}
+
+.search-container {
+    position: relative;
+    width: 100%;
+}
+.search-container input[type=text] {
+    width: 100%;
+    padding: 12px 20px 12px 40px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="%23666666" width="18px" height="18px"><path d="M21.39 20.31l-3.38-3.38c1.12-1.36 1.81-3.11 1.81-5 0-4.42-3.58-8-8-8s-8 3.58-8 8 3.58 8 8 8c1.89 0 3.64-.69 5-1.81l3.38 3.38c.39.39 1.02.39 1.41 0 .38-.39.39-1.03 0-1.42zM4 12c0-3.31 2.69-6 6-6s6 2.69 6 6-2.69 6-6 6-6-2.69-6-6z"/><path fill="none" d="M0 0h24v24H0z"/></svg>');
+    background-repeat: no-repeat;
+    background-position: 10px center;
+}
+
+.menu-item img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 5px;
+    transition: transform 0.3s ease-in-out; /* Transição suave para a transformação */
+}
+
+/* Define a transformação para a imagem quando o mouse passa por cima */
+.menu-item:hover img {
+    transform: scale(1.05); /* Aumenta a escala da imagem em 10% */
+}
+
+.navigation {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#categoria {
+    font-size: 24px;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+
+#categoriesMenu {
+    list-style: none;
+    padding: 0;
+}
+
+#categoriesMenu li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+#categoriesMenu li:last-child {
+    margin-right: 0;
+}
+
+#categoriesMenu a {
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    background-color: #302422;
+    transition: background-color 0.3s ease;
+}
+
+#categoriesMenu a:hover {
+    background-color: #5A5555;
+}
+.carrinho {
+    position: fixed;
+    bottom: 10px; /* Posiciona o carrinho no canto inferior direito */
+    right: 20px; /* Define a distância da direita da página */
+    background-color: black;
+    padding: 5px;
+    border-radius: 10px;
+    color: white;
+    transition: bottom 0.3s ease; /* Adiciona uma transição suave para a mudança de posição */
+    text-align: center; /* Centraliza o conteúdo do carrinho */
+}
+
+.carrinho.aberto {
+    bottom: calc(10% + 100px); /* Posiciona o carrinho abaixo da altura do cabeçalho e itens do menu */
+}
+
+
+button {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 0 auto; /* Centraliza horizontalmente o botão */
+}
+
+input[type="submit"]:hover {
+    background-color: black;
+}
+
+.finalizar-btn {
+    background-color: blue; /* Cor de fundo verde */
+    color: white; /* Cor do texto branco */
+    padding: 10px 20px; /* Preenchimento interno */
+    border: none; /* Remove a borda */
+    border-radius: 5px; /* Borda arredondada */
+    cursor: pointer; /* Altera o cursor para indicar clicabilidade */
+    font-size: 16px; /* Tamanho da fonte */
+}
+
+.finalizar-btn:hover {
+    background-color: red; /* Altera a cor de fundo quando hover */
+}
+.pagamento-btn {
+    background-color: #007bff; /* Cor de fundo azul */
+    color: white; /* Cor do texto branco */
+    padding: 10px 20px; /* Preenchimento interno */
+    border: none; /* Remove a borda */
+    border-radius: 5px; /* Borda arredondada */
+    cursor: pointer; /* Altera o cursor para indicar clicabilidade */
+    font-size: 16px; /* Tamanho da fonte */
+}
+
+.pagamento-btn:hover {
+    background-color: #0056b3; /* Altera a cor de fundo quando hover */
+}
+
+footer {
+    color: white;
+    text-align: center;
+}
+
+section{
+    color :white
+}
+
+.carrinho-footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    box-shadow: 0 -2px 5px rgba(0,0,0,0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.carrinho-footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px; /* Adicione um max-width para limitar a largura se necessário */
+    padding: 0 20px;
+}
+
+.carrinho-footer button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+#finalizar-pedido-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#finalizar-pedido-btn:hover {
+    background-color: #45a049;
+}
+
+/* Adicionando padding-bottom ao contêiner dos itens do menu */
+.menu-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 150px; /* Adiciona espaço suficiente para o carrinho fixo */
+}
+
+.carrinho-footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    box-shadow: 0 -2px 5px rgba(0,0,0,0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.carrinho-footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 20px;
+}

@@ -1,0 +1,170 @@
+[
+    {
+        "img": "/img/coca-2litros.png",
+        "alt": "Coca Cola",
+        "nome": "Coca Cola",
+        "descricao": "2 litros",
+        "preco": 9.50,
+        "category": "bebidas_geladas"
+    },
+    {
+        "img": "/img/coca-600.webp",
+        "alt": "Coca Cola",
+        "nome": "Coca Cola",
+        "descricao": "600 ml",
+        "preco": 4.50,
+        "category": "bebidas_geladas"
+    },
+    {
+        "img": "/img/coca-350.jpg",
+        "alt": "Coca Cola",
+        "nome": "Coca Cola",
+        "descricao": "350 ml",
+        "preco": 5.50,
+        "category": "bebidas_geladas"
+    },
+    {
+        "img": "/img/suco-laranja.jpg",
+        "alt": "Suco de Laranja",
+        "nome": "Suco de Laranja Prats",
+        "descricao": "1 litro",
+        "preco": 8.00,
+        "category": "bebidas_geladas"
+    },
+    {
+        "img": "/img/guarana-2litros.jpg",
+        "alt": "Guarana Antartica",
+        "nome": "Guarana Antartica",
+        "descricao": "2 litros",
+        "preco": 7.00,
+        "category": "bebidas_geladas"
+    },
+    {
+        "img": "/img/guarana-350.jpg",
+        "alt": "Guarana Antartica",
+        "nome": "Guarana Antartica",
+        "descricao": "350 ml",
+        "preco": 4.00,
+        "category": "bebidas_geladas"
+    },
+    {
+        "img": "/img/cafe_preto.png",
+        "alt": "Café Preto",
+        "nome": "Café Preto",
+        "descricao": "Um Café Forte e Encorpado.",
+        "preco": 4.50,
+        "category": "bebidas_quentes"
+    },
+    {
+        "img": "/img/cafe_expresso.png",
+        "alt": "Café Expresso",
+        "nome": "Café Expresso",
+        "descricao": "Intenso e concentrado.",
+        "preco": 2.80,
+        "category": "bebidas_quentes"
+    },
+    {
+        "img": "/img/cafe_doppio.png",
+        "alt": "Café Doppio",
+        "nome": "Café Doppio",
+        "descricao": "Dupla dose de intensidade.",
+        "preco": 5.50,
+        "category": "bebidas_quentes"
+    },
+    {
+        "img": "/img/cafe-gourmet.jpg",
+        "alt": "Café Gourmet",
+        "nome": "Café Gourmet",
+        "descricao": "Uma mistura indulgente de sabores ricos e complexos.",
+        "preco": 8.00,
+        "category": "bebidas_quentes"
+    },
+    {
+        "img": "/img/cafe_macchiato.jpeg",
+        "alt": "Café Macchiato",
+        "nome": "Café Macchiato",
+        "descricao": "Espresso intenso com uma leve camada de espuma de leite.",
+        "preco": 7.00,
+        "category": "bebidas_quentes"
+    },
+    {
+        "img": "/img/cafe_americano.jpg",
+        "alt": "Café Americano",
+        "nome": "Café Americano",
+        "descricao": "Café suave e aromático, com sabor profundo.",
+        "preco": 4.00,
+        "category": "bebidas_quentes"
+    },
+    {
+        "img": "/img/cha-camo.webp",
+        "alt": "Chá de Camomila",
+        "nome": "Chá de Camomila",
+        "descricao": "",
+        "preco": 4.50,
+        "category": "bebidas_quentes"
+    },
+    {
+        "img": "/img/cha-de-erva-doce.jpg",
+        "alt": "Chá de Erva Doce",
+        "nome": "Chá de Erva Doce",
+        "descricao": "",
+        "preco": 2.80,
+        "category": "bebidas_quentes"
+    },
+    {
+        "img": "/img/cha-de-hortela.jpg",
+        "alt": "Chá de Hortelã",
+        "nome": "Chá de Hortelã",
+        "descricao": "",
+        "preco": 5.50,
+        "category": "bebidas_quentes"
+    },
+    {
+        "img": "/img/cap-marsh.avif",
+        "alt": "Cappuccino Com Marshmallow",
+        "nome": "Cappuccino Com Marshmallow",
+        "descricao": "",
+        "preco": 5.50,
+        "category": "bebidas_quentes"
+    },
+    {
+        "img": "/img/cap-chantilly.jpg",
+        "alt": "Cappuccino Com Chantilly",
+        "nome": "Cappuccino Com Chantilly",
+        "descricao": "",
+        "preco": 4.50,
+        "category": "bebidas_quentes"
+    },
+    {
+        "img": "/img/cap-nutella.jpg",
+        "alt": "Cappuccino Com Nutella",
+        "nome": "Cappuccino Com Nutella",
+        "descricao": "",
+        "preco": 2.80,
+        "category": "bebidas_quentes"
+    },
+    {
+        "img": "/img/bauru-tradicional.webp",
+        "alt": "Pão Com Presunto e Queijo",
+        "nome": "Pão Com Presunto e Queijo",
+        "descricao": "",
+        "preco": 10.90,
+        "category": "lanches"
+    },
+    {
+        "img": "/img/Lanche-de-peito-de-peru.jpg",
+        "alt": "Sanduiche C/ Peito de Peru",
+        "nome": "Sanduiche C/ Peito de Peru",
+        "descricao": "",
+        "preco": 7.90,
+        "category": "lanches"
+    },
+    {
+        "img": "/img/sanduiche-natural.webp",
+        "alt": "Sanduiche Natural",
+        "nome": "Sanduiche Natural",
+        "descricao": "",
+        "preco": 7.50,
+        "category": "lanches"
+    }
+]
