@@ -133,6 +133,7 @@ input[type="text"] {
 #categoriesMenu li {
     display: inline-block;
     margin-right: 10px;
+
 }
 
 #categoriesMenu li:last-child {
@@ -142,7 +143,7 @@ input[type="text"] {
 #categoriesMenu a {
     color: #FFFFFF;
     text-decoration: none;
-    padding: 8px 12px;
+    padding: 10px 40px;
     border-radius: 5px;
     background-color: #302422;
     transition: background-color 0.3s ease;
@@ -270,6 +271,10 @@ section{
 }
 
 /* Adicionando padding-bottom ao contêiner dos itens do menu */
+.menu-item button:hover {
+    background-color: #302422;
+}
+/* Adicionando padding-bottom ao contêiner dos itens do menu */
 .menu-items {
     display: flex;
     flex-wrap: wrap;
@@ -301,7 +306,8 @@ section{
     padding: 0 20px;
 }
 
-.remove-item {
+
+button.remove-item {
     background-color: red;
     color: white;
     border: none;
@@ -314,5 +320,30 @@ section{
 .remove-item:hover {
     background-color: darkred;
 }
+
+#finalizar-pedido-btn:disabled {
+    background-color: grey;
+    cursor: not-allowed;
+}
+
+@media (max-width: 768px) {
+    .menu-item {
+        width: 100%;
+    }
+
+    .menu-item img {
+        height: auto;
+    }
+
+    #categoriesMenu a {
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #302422;
+    transition: background-color 0.3s ease;
+    }
+}
+
 
 

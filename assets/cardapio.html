@@ -49,51 +49,6 @@
         </div>
         <p>&copy; 2024 Coffee World. Todos os direitos reservados.</p>
     </footer>
-
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            let produtos = [];
-
-            // Carregar produtos do arquivo JSON
-            fetch('produtos.json')
-                .then(response => response.json())
-                .then(data => {
-                    produtos = data;
-                    displayProducts('all');
-                })
-                .catch(error => console.error('Erro ao carregar o arquivo JSON:', error));
-
-            // Função para exibir produtos filtrados por categoria
-            function displayProducts(category) {
-                const menuItemsContainer = document.getElementById('menuItems');
-                menuItemsContainer.innerHTML = '';
-
-                const filteredProducts = category === 'all' ? produtos : produtos.filter(item => item.category === category);
-
-                filteredProducts.forEach(item => {
-                    const menuItem = document.createElement('div');
-                    menuItem.classList.add('menu-item');
-                    menuItem.innerHTML = `
-                        <img src="${item.img}" alt="${item.alt}">
-                        <h2>${item.nome}</h2>
-                        <p>${item.descricao}</p>
-                        <p id="preco">Preço: R$ ${item.preco.toFixed(2)}</p>
-                        <button onclick="addToCart('${item.nome}', ${item.preco})">Adicionar ao Carrinho</button>
-                    `;
-                    menuItemsContainer.appendChild(menuItem);
-                });
-            }
-
-            // Adicionar evento para filtrar produtos quando uma categoria for clicada
-            document.querySelectorAll('#categoriesMenu a').forEach(link => {
-                link.addEventListener('click', (e) => {
-                    e.preventDefault();
-                    const category = e.currentTarget.dataset.category;
-                    displayProducts(category);
-                });
-            });
-        });
-    </script>
 </body>
 
 </html>
